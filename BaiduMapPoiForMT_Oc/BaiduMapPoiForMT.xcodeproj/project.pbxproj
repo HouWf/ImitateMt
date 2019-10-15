@@ -1,0 +1,1126 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		505C291EA970A1910EFCF8A9 /* libPods-BaiduMapPoiForMT.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D290D6F7C6F9762B3F7409EC /* libPods-BaiduMapPoiForMT.a */; };
+		67356BC92351865500EE70C1 /* BaiduMapAPI_Utils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67356BC82351865500EE70C1 /* BaiduMapAPI_Utils.framework */; };
+		67356BCB2351A7D900EE70C1 /* input@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 67356BCA2351A7D900EE70C1 /* input@2x.png */; };
+		67356BCD2351A85500EE70C1 /* back_icon_nor@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 67356BCC2351A85400EE70C1 /* back_icon_nor@3x.png */; };
+		67356BCF2351A85900EE70C1 /* back_icon_nor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 67356BCE2351A85900EE70C1 /* back_icon_nor@2x.png */; };
+		678DE41D23504DA30020BE35 /* BaiduMapAPI_Map.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 678DE41623504DA30020BE35 /* BaiduMapAPI_Map.framework */; };
+		678DE41E23504DA30020BE35 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 678DE41823504DA30020BE35 /* libcrypto.a */; };
+		678DE41F23504DA30020BE35 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 678DE41923504DA30020BE35 /* libssl.a */; };
+		678DE42023504DA30020BE35 /* BaiduMapAPI_Base.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 678DE41A23504DA30020BE35 /* BaiduMapAPI_Base.framework */; };
+		678DE42123504DA30020BE35 /* BaiduMapAPI_Search.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 678DE41B23504DA30020BE35 /* BaiduMapAPI_Search.framework */; };
+		678DE42223504DA30020BE35 /* BaiduMapAPI_Cloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 678DE41C23504DA30020BE35 /* BaiduMapAPI_Cloud.framework */; };
+		678DE42523504DEA0020BE35 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 678DE42423504DEA0020BE35 /* CoreGraphics.framework */; };
+		678DE42723504DF20020BE35 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 678DE42623504DF20020BE35 /* CoreLocation.framework */; };
+		678DE42923504E050020BE35 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 678DE42823504DFD0020BE35 /* libc++.tbd */; };
+		678DE42B23504E130020BE35 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 678DE42A23504E0C0020BE35 /* libsqlite3.0.tbd */; };
+		678DE42D23504E1A0020BE35 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 678DE42C23504E1A0020BE35 /* MobileCoreServices.framework */; };
+		678DE42F23504E220020BE35 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 678DE42E23504E220020BE35 /* OpenGLES.framework */; };
+		678DE43123504E280020BE35 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 678DE43023504E280020BE35 /* QuartzCore.framework */; };
+		678DE43323504E300020BE35 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 678DE43223504E300020BE35 /* Security.framework */; };
+		678DE43523504E370020BE35 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 678DE43423504E360020BE35 /* SystemConfiguration.framework */; };
+		67A8B7B6235054E9004AC337 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67A8B7B5235054E8004AC337 /* MessageUI.framework */; };
+		67A8B7B8235054F6004AC337 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67A8B7B7235054F6004AC337 /* UIKit.framework */; };
+		67A8B7BA2350551D004AC337 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 67A8B7B923505516004AC337 /* libz.tbd */; };
+		67A8B7BD2350561A004AC337 /* mapapi.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 67A8B7BC2350561A004AC337 /* mapapi.bundle */; };
+		67A8B7C0235065B9004AC337 /* BMKLocationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67A8B7BF235065B9004AC337 /* BMKLocationKit.framework */; };
+		67A8B7DD2350821E004AC337 /* poi.png in Resources */ = {isa = PBXBuildFile; fileRef = 67A8B7D72350821E004AC337 /* poi.png */; };
+		67A8B7DE2350821E004AC337 /* poi_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 67A8B7D82350821E004AC337 /* poi_1.png */; };
+		67A8B7DF2350821E004AC337 /* poi_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 67A8B7D92350821E004AC337 /* poi_2.png */; };
+		67A8B7E02350821E004AC337 /* point@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 67A8B7DA2350821E004AC337 /* point@2x.png */; };
+		67A8B7E12350821E004AC337 /* dingwei.png in Resources */ = {isa = PBXBuildFile; fileRef = 67A8B7DB2350821E004AC337 /* dingwei.png */; };
+		67A8B7E22350821E004AC337 /* point.png in Resources */ = {isa = PBXBuildFile; fileRef = 67A8B7DC2350821E004AC337 /* point.png */; };
+		67B3F2D223500D0A00022179 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 67B3F2D123500D0A00022179 /* AppDelegate.mm */; };
+		67B3F2D823500D0A00022179 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B3F2D723500D0A00022179 /* ViewController.m */; };
+		67B3F2DB23500D0A00022179 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67B3F2D923500D0A00022179 /* Main.storyboard */; };
+		67B3F2DD23500D0E00022179 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67B3F2DC23500D0E00022179 /* Assets.xcassets */; };
+		67B3F2E023500D0E00022179 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67B3F2DE23500D0E00022179 /* LaunchScreen.storyboard */; };
+		67B3F2E323500D0E00022179 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B3F2E223500D0E00022179 /* main.m */; };
+		67B3F2ED23500D0E00022179 /* BaiduMapPoiForMTTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B3F2EC23500D0E00022179 /* BaiduMapPoiForMTTests.m */; };
+		67B3F2F823500D0E00022179 /* BaiduMapPoiForMTUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B3F2F723500D0E00022179 /* BaiduMapPoiForMTUITests.m */; };
+		67F0D92A2355D12C00CA7CF1 /* BFAppConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F0D9292355D12C00CA7CF1 /* BFAppConfiguration.m */; };
+		67F0D95B2355D21300CA7CF1 /* BFCPoiResultListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F0D92E2355D21300CA7CF1 /* BFCPoiResultListController.m */; };
+		67F0D95C2355D21300CA7CF1 /* BFCPoiResultListService.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F0D9302355D21300CA7CF1 /* BFCPoiResultListService.m */; };
+		67F0D95D2355D21300CA7CF1 /* BFCPoiResultViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F0D9312355D21300CA7CF1 /* BFCPoiResultViewModel.m */; };
+		67F0D95E2355D21300CA7CF1 /* BFCBDMapPoiModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F0D9372355D21300CA7CF1 /* BFCBDMapPoiModel.m */; };
+		67F0D95F2355D21300CA7CF1 /* BFCBDMapPoiViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F0D93A2355D21300CA7CF1 /* BFCBDMapPoiViewCell.m */; };
+		67F0D9602355D21300CA7CF1 /* BFCBDMapViewService.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F0D93D2355D21300CA7CF1 /* BFCBDMapViewService.m */; };
+		67F0D9612355D21300CA7CF1 /* BFCBDMapViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F0D93E2355D21300CA7CF1 /* BFCBDMapViewModel.m */; };
+		67F0D9622355D21300CA7CF1 /* BFCBDMapSearchResultViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F0D9432355D21300CA7CF1 /* BFCBDMapSearchResultViewModel.m */; };
+		67F0D9632355D21300CA7CF1 /* BFCBDMapSearchResultService.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F0D9452355D21300CA7CF1 /* BFCBDMapSearchResultService.m */; };
+		67F0D9642355D21300CA7CF1 /* BFCBDMapSearchResultController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F0D9472355D21300CA7CF1 /* BFCBDMapSearchResultController.m */; };
+		67F0D9652355D21300CA7CF1 /* AdSearchResoultViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F0D94B2355D21300CA7CF1 /* AdSearchResoultViewCell.m */; };
+		67F0D9662355D21300CA7CF1 /* BFCCityButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F0D94E2355D21300CA7CF1 /* BFCCityButton.m */; };
+		67F0D9672355D21300CA7CF1 /* GYZChooseCityController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F0D9502355D21300CA7CF1 /* GYZChooseCityController.m */; };
+		67F0D9682355D21300CA7CF1 /* GYZCityGroupCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F0D9512355D21300CA7CF1 /* GYZCityGroupCell.m */; };
+		67F0D9692355D21300CA7CF1 /* CityData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 67F0D9522355D21300CA7CF1 /* CityData.plist */; };
+		67F0D96A2355D21300CA7CF1 /* GYZCityHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F0D9532355D21300CA7CF1 /* GYZCityHeaderView.m */; };
+		67F0D96B2355D21300CA7CF1 /* GYZCity.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F0D9542355D21300CA7CF1 /* GYZCity.m */; };
+		67F0D96C2355D21300CA7CF1 /* BFCBDMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F0D95A2355D21300CA7CF1 /* BFCBDMapViewController.m */; };
+		67F0D9782355D25800CA7CF1 /* BFCBaseViewService.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F0D9742355D25800CA7CF1 /* BFCBaseViewService.m */; };
+		67F0D97D2355D2B300CA7CF1 /* back_X_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 67F0D97A2355D2B300CA7CF1 /* back_X_icon@2x.png */; };
+		67F0D97E2355D2B300CA7CF1 /* back_X_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 67F0D97B2355D2B300CA7CF1 /* back_X_icon@3x.png */; };
+		67F0D97F2355D2B300CA7CF1 /* back_X_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 67F0D97C2355D2B300CA7CF1 /* back_X_icon.png */; };
+		67F0D9822355D31F00CA7CF1 /* UILabel+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F0D9812355D31F00CA7CF1 /* UILabel+Category.m */; };
+		67F0D9852355D49600CA7CF1 /* BFCBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F0D9832355D49600CA7CF1 /* BFCBaseViewController.m */; };
+		67F0D9882355D94100CA7CF1 /* NSObject+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F0D9872355D94100CA7CF1 /* NSObject+Extension.m */; };
+		67F0D9912355DAF700CA7CF1 /* BFCBaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F0D9902355DAF700CA7CF1 /* BFCBaseViewModel.m */; };
+		67F0D9952355E6ED00CA7CF1 /* down_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 67F0D9922355E6EC00CA7CF1 /* down_icon@2x.png */; };
+		67F0D9962355E6ED00CA7CF1 /* down_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 67F0D9932355E6EC00CA7CF1 /* down_icon@3x.png */; };
+		67F0D9972355E6ED00CA7CF1 /* down_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 67F0D9942355E6EC00CA7CF1 /* down_icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		67B3F2E923500D0E00022179 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67B3F2C523500D0900022179 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67B3F2CC23500D0A00022179;
+			remoteInfo = BaiduMapPoiForMT;
+		};
+		67B3F2F423500D0E00022179 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67B3F2C523500D0900022179 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67B3F2CC23500D0A00022179;
+			remoteInfo = BaiduMapPoiForMT;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B70DD66BCA9BBC905758F85 /* Pods-BaiduMapPoiForMT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaiduMapPoiForMT.release.xcconfig"; path = "Target Support Files/Pods-BaiduMapPoiForMT/Pods-BaiduMapPoiForMT.release.xcconfig"; sourceTree = "<group>"; };
+		67356BC82351865500EE70C1 /* BaiduMapAPI_Utils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Utils.framework; sourceTree = "<group>"; };
+		67356BCA2351A7D900EE70C1 /* input@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "input@2x.png"; sourceTree = "<group>"; };
+		67356BCC2351A85400EE70C1 /* back_icon_nor@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back_icon_nor@3x.png"; sourceTree = "<group>"; };
+		67356BCE2351A85900EE70C1 /* back_icon_nor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back_icon_nor@2x.png"; sourceTree = "<group>"; };
+		678DE41623504DA30020BE35 /* BaiduMapAPI_Map.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Map.framework; sourceTree = "<group>"; };
+		678DE41823504DA30020BE35 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
+		678DE41923504DA30020BE35 /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssl.a; sourceTree = "<group>"; };
+		678DE41A23504DA30020BE35 /* BaiduMapAPI_Base.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Base.framework; sourceTree = "<group>"; };
+		678DE41B23504DA30020BE35 /* BaiduMapAPI_Search.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Search.framework; sourceTree = "<group>"; };
+		678DE41C23504DA30020BE35 /* BaiduMapAPI_Cloud.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Cloud.framework; sourceTree = "<group>"; };
+		678DE42423504DEA0020BE35 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		678DE42623504DF20020BE35 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		678DE42823504DFD0020BE35 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		678DE42A23504E0C0020BE35 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		678DE42C23504E1A0020BE35 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		678DE42E23504E220020BE35 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		678DE43023504E280020BE35 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		678DE43223504E300020BE35 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		678DE43423504E360020BE35 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		67A8B7B5235054E8004AC337 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		67A8B7B7235054F6004AC337 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		67A8B7B923505516004AC337 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		67A8B7BC2350561A004AC337 /* mapapi.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = mapapi.bundle; sourceTree = "<group>"; };
+		67A8B7BE235059A6004AC337 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		67A8B7BF235065B9004AC337 /* BMKLocationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BMKLocationKit.framework; sourceTree = "<group>"; };
+		67A8B7D72350821E004AC337 /* poi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = poi.png; sourceTree = "<group>"; };
+		67A8B7D82350821E004AC337 /* poi_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = poi_1.png; sourceTree = "<group>"; };
+		67A8B7D92350821E004AC337 /* poi_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = poi_2.png; sourceTree = "<group>"; };
+		67A8B7DA2350821E004AC337 /* point@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "point@2x.png"; sourceTree = "<group>"; };
+		67A8B7DB2350821E004AC337 /* dingwei.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dingwei.png; sourceTree = "<group>"; };
+		67A8B7DC2350821E004AC337 /* point.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = point.png; sourceTree = "<group>"; };
+		67B3F2CD23500D0A00022179 /* BDMT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BDMT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67B3F2D023500D0A00022179 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		67B3F2D123500D0A00022179 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
+		67B3F2D623500D0A00022179 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		67B3F2D723500D0A00022179 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		67B3F2DA23500D0A00022179 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		67B3F2DC23500D0E00022179 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67B3F2DF23500D0E00022179 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		67B3F2E123500D0E00022179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67B3F2E223500D0E00022179 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		67B3F2E823500D0E00022179 /* BaiduMapPoiForMTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaiduMapPoiForMTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67B3F2EC23500D0E00022179 /* BaiduMapPoiForMTTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaiduMapPoiForMTTests.m; sourceTree = "<group>"; };
+		67B3F2EE23500D0E00022179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67B3F2F323500D0E00022179 /* BaiduMapPoiForMTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaiduMapPoiForMTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67B3F2F723500D0E00022179 /* BaiduMapPoiForMTUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaiduMapPoiForMTUITests.m; sourceTree = "<group>"; };
+		67B3F2F923500D0E00022179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67F0D9262355D01A00CA7CF1 /* BFCMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFCMacro.h; sourceTree = "<group>"; };
+		67F0D9282355D12C00CA7CF1 /* BFAppConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFAppConfiguration.h; sourceTree = "<group>"; };
+		67F0D9292355D12C00CA7CF1 /* BFAppConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFAppConfiguration.m; sourceTree = "<group>"; };
+		67F0D92C2355D21300CA7CF1 /* BFCBDMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFCBDMapViewController.h; sourceTree = "<group>"; };
+		67F0D92E2355D21300CA7CF1 /* BFCPoiResultListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFCPoiResultListController.m; sourceTree = "<group>"; };
+		67F0D9302355D21300CA7CF1 /* BFCPoiResultListService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFCPoiResultListService.m; sourceTree = "<group>"; };
+		67F0D9312355D21300CA7CF1 /* BFCPoiResultViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFCPoiResultViewModel.m; sourceTree = "<group>"; };
+		67F0D9322355D21300CA7CF1 /* BFCPoiResultListService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFCPoiResultListService.h; sourceTree = "<group>"; };
+		67F0D9332355D21300CA7CF1 /* BFCPoiResultViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFCPoiResultViewModel.h; sourceTree = "<group>"; };
+		67F0D9342355D21300CA7CF1 /* BFCPoiResultListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFCPoiResultListController.h; sourceTree = "<group>"; };
+		67F0D9362355D21300CA7CF1 /* BFCBDMapPoiModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFCBDMapPoiModel.h; sourceTree = "<group>"; };
+		67F0D9372355D21300CA7CF1 /* BFCBDMapPoiModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFCBDMapPoiModel.m; sourceTree = "<group>"; };
+		67F0D9392355D21300CA7CF1 /* BFCBDMapPoiViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFCBDMapPoiViewCell.h; sourceTree = "<group>"; };
+		67F0D93A2355D21300CA7CF1 /* BFCBDMapPoiViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFCBDMapPoiViewCell.m; sourceTree = "<group>"; };
+		67F0D93C2355D21300CA7CF1 /* BFCBDMapViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFCBDMapViewModel.h; sourceTree = "<group>"; };
+		67F0D93D2355D21300CA7CF1 /* BFCBDMapViewService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFCBDMapViewService.m; sourceTree = "<group>"; };
+		67F0D93E2355D21300CA7CF1 /* BFCBDMapViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFCBDMapViewModel.m; sourceTree = "<group>"; };
+		67F0D93F2355D21300CA7CF1 /* BFCBDMapViewService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFCBDMapViewService.h; sourceTree = "<group>"; };
+		67F0D9412355D21300CA7CF1 /* BFCBDMapSearchResultController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFCBDMapSearchResultController.h; sourceTree = "<group>"; };
+		67F0D9432355D21300CA7CF1 /* BFCBDMapSearchResultViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFCBDMapSearchResultViewModel.m; sourceTree = "<group>"; };
+		67F0D9442355D21300CA7CF1 /* BFCBDMapSearchResultService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFCBDMapSearchResultService.h; sourceTree = "<group>"; };
+		67F0D9452355D21300CA7CF1 /* BFCBDMapSearchResultService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFCBDMapSearchResultService.m; sourceTree = "<group>"; };
+		67F0D9462355D21300CA7CF1 /* BFCBDMapSearchResultViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFCBDMapSearchResultViewModel.h; sourceTree = "<group>"; };
+		67F0D9472355D21300CA7CF1 /* BFCBDMapSearchResultController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFCBDMapSearchResultController.m; sourceTree = "<group>"; };
+		67F0D94A2355D21300CA7CF1 /* AdSearchResoultViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdSearchResoultViewCell.h; sourceTree = "<group>"; };
+		67F0D94B2355D21300CA7CF1 /* AdSearchResoultViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdSearchResoultViewCell.m; sourceTree = "<group>"; };
+		67F0D94D2355D21300CA7CF1 /* BFCCityButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFCCityButton.h; sourceTree = "<group>"; };
+		67F0D94E2355D21300CA7CF1 /* BFCCityButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFCCityButton.m; sourceTree = "<group>"; };
+		67F0D9502355D21300CA7CF1 /* GYZChooseCityController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYZChooseCityController.m; sourceTree = "<group>"; };
+		67F0D9512355D21300CA7CF1 /* GYZCityGroupCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYZCityGroupCell.m; sourceTree = "<group>"; };
+		67F0D9522355D21300CA7CF1 /* CityData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CityData.plist; sourceTree = "<group>"; };
+		67F0D9532355D21300CA7CF1 /* GYZCityHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYZCityHeaderView.m; sourceTree = "<group>"; };
+		67F0D9542355D21300CA7CF1 /* GYZCity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYZCity.m; sourceTree = "<group>"; };
+		67F0D9552355D21300CA7CF1 /* GYZCityGroupCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYZCityGroupCell.h; sourceTree = "<group>"; };
+		67F0D9562355D21300CA7CF1 /* GYZChooseCityDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYZChooseCityDelegate.h; sourceTree = "<group>"; };
+		67F0D9572355D21300CA7CF1 /* GYZChooseCityController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYZChooseCityController.h; sourceTree = "<group>"; };
+		67F0D9582355D21300CA7CF1 /* GYZCityHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYZCityHeaderView.h; sourceTree = "<group>"; };
+		67F0D9592355D21300CA7CF1 /* GYZCity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYZCity.h; sourceTree = "<group>"; };
+		67F0D95A2355D21300CA7CF1 /* BFCBDMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFCBDMapViewController.m; sourceTree = "<group>"; };
+		67F0D9742355D25800CA7CF1 /* BFCBaseViewService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFCBaseViewService.m; sourceTree = "<group>"; };
+		67F0D9772355D25800CA7CF1 /* BFCBaseViewService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFCBaseViewService.h; sourceTree = "<group>"; };
+		67F0D97A2355D2B300CA7CF1 /* back_X_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back_X_icon@2x.png"; sourceTree = "<group>"; };
+		67F0D97B2355D2B300CA7CF1 /* back_X_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back_X_icon@3x.png"; sourceTree = "<group>"; };
+		67F0D97C2355D2B300CA7CF1 /* back_X_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back_X_icon.png; sourceTree = "<group>"; };
+		67F0D9802355D31F00CA7CF1 /* UILabel+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+Category.h"; sourceTree = "<group>"; };
+		67F0D9812355D31F00CA7CF1 /* UILabel+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Category.m"; sourceTree = "<group>"; };
+		67F0D9832355D49600CA7CF1 /* BFCBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFCBaseViewController.m; sourceTree = "<group>"; };
+		67F0D9842355D49600CA7CF1 /* BFCBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFCBaseViewController.h; sourceTree = "<group>"; };
+		67F0D9862355D94100CA7CF1 /* NSObject+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Extension.h"; sourceTree = "<group>"; };
+		67F0D9872355D94100CA7CF1 /* NSObject+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Extension.m"; sourceTree = "<group>"; };
+		67F0D98F2355DAF700CA7CF1 /* BFCBaseViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFCBaseViewModel.h; sourceTree = "<group>"; };
+		67F0D9902355DAF700CA7CF1 /* BFCBaseViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFCBaseViewModel.m; sourceTree = "<group>"; };
+		67F0D9922355E6EC00CA7CF1 /* down_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "down_icon@2x.png"; sourceTree = "<group>"; };
+		67F0D9932355E6EC00CA7CF1 /* down_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "down_icon@3x.png"; sourceTree = "<group>"; };
+		67F0D9942355E6EC00CA7CF1 /* down_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = down_icon.png; sourceTree = "<group>"; };
+		CE412F2E1A02C8C459F99EC2 /* Pods-BaiduMapPoiForMT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaiduMapPoiForMT.debug.xcconfig"; path = "Target Support Files/Pods-BaiduMapPoiForMT/Pods-BaiduMapPoiForMT.debug.xcconfig"; sourceTree = "<group>"; };
+		D290D6F7C6F9762B3F7409EC /* libPods-BaiduMapPoiForMT.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BaiduMapPoiForMT.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67B3F2CA23500D0A00022179 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				678DE41E23504DA30020BE35 /* libcrypto.a in Frameworks */,
+				678DE43523504E370020BE35 /* SystemConfiguration.framework in Frameworks */,
+				67A8B7B6235054E9004AC337 /* MessageUI.framework in Frameworks */,
+				678DE43123504E280020BE35 /* QuartzCore.framework in Frameworks */,
+				678DE42123504DA30020BE35 /* BaiduMapAPI_Search.framework in Frameworks */,
+				678DE42223504DA30020BE35 /* BaiduMapAPI_Cloud.framework in Frameworks */,
+				678DE43323504E300020BE35 /* Security.framework in Frameworks */,
+				67A8B7BA2350551D004AC337 /* libz.tbd in Frameworks */,
+				67356BC92351865500EE70C1 /* BaiduMapAPI_Utils.framework in Frameworks */,
+				678DE42523504DEA0020BE35 /* CoreGraphics.framework in Frameworks */,
+				678DE42723504DF20020BE35 /* CoreLocation.framework in Frameworks */,
+				678DE42023504DA30020BE35 /* BaiduMapAPI_Base.framework in Frameworks */,
+				678DE42923504E050020BE35 /* libc++.tbd in Frameworks */,
+				67A8B7B8235054F6004AC337 /* UIKit.framework in Frameworks */,
+				678DE41D23504DA30020BE35 /* BaiduMapAPI_Map.framework in Frameworks */,
+				678DE42B23504E130020BE35 /* libsqlite3.0.tbd in Frameworks */,
+				678DE42D23504E1A0020BE35 /* MobileCoreServices.framework in Frameworks */,
+				678DE41F23504DA30020BE35 /* libssl.a in Frameworks */,
+				67A8B7C0235065B9004AC337 /* BMKLocationKit.framework in Frameworks */,
+				678DE42F23504E220020BE35 /* OpenGLES.framework in Frameworks */,
+				505C291EA970A1910EFCF8A9 /* libPods-BaiduMapPoiForMT.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67B3F2E523500D0E00022179 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67B3F2F023500D0E00022179 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06A26537988CF2496C026161 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE412F2E1A02C8C459F99EC2 /* Pods-BaiduMapPoiForMT.debug.xcconfig */,
+				2B70DD66BCA9BBC905758F85 /* Pods-BaiduMapPoiForMT.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		678DE41523504DA30020BE35 /* BaiduMap_IOSSDK_Lib */ = {
+			isa = PBXGroup;
+			children = (
+				67356BC82351865500EE70C1 /* BaiduMapAPI_Utils.framework */,
+				67A8B7BF235065B9004AC337 /* BMKLocationKit.framework */,
+				67A8B7BB235055FC004AC337 /* Ot */,
+				678DE41623504DA30020BE35 /* BaiduMapAPI_Map.framework */,
+				678DE41723504DA30020BE35 /* thirdlibs */,
+				678DE41A23504DA30020BE35 /* BaiduMapAPI_Base.framework */,
+				678DE41B23504DA30020BE35 /* BaiduMapAPI_Search.framework */,
+				678DE41C23504DA30020BE35 /* BaiduMapAPI_Cloud.framework */,
+			);
+			path = BaiduMap_IOSSDK_Lib;
+			sourceTree = "<group>";
+		};
+		678DE41723504DA30020BE35 /* thirdlibs */ = {
+			isa = PBXGroup;
+			children = (
+				678DE41823504DA30020BE35 /* libcrypto.a */,
+				678DE41923504DA30020BE35 /* libssl.a */,
+			);
+			path = thirdlibs;
+			sourceTree = "<group>";
+		};
+		678DE42323504DEA0020BE35 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67A8B7B923505516004AC337 /* libz.tbd */,
+				67A8B7B7235054F6004AC337 /* UIKit.framework */,
+				67A8B7B5235054E8004AC337 /* MessageUI.framework */,
+				678DE43423504E360020BE35 /* SystemConfiguration.framework */,
+				678DE43223504E300020BE35 /* Security.framework */,
+				678DE43023504E280020BE35 /* QuartzCore.framework */,
+				678DE42E23504E220020BE35 /* OpenGLES.framework */,
+				678DE42C23504E1A0020BE35 /* MobileCoreServices.framework */,
+				678DE42A23504E0C0020BE35 /* libsqlite3.0.tbd */,
+				678DE42823504DFD0020BE35 /* libc++.tbd */,
+				678DE42623504DF20020BE35 /* CoreLocation.framework */,
+				678DE42423504DEA0020BE35 /* CoreGraphics.framework */,
+				D290D6F7C6F9762B3F7409EC /* libPods-BaiduMapPoiForMT.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		67A8B7BB235055FC004AC337 /* Ot */ = {
+			isa = PBXGroup;
+			children = (
+				67A8B7BC2350561A004AC337 /* mapapi.bundle */,
+			);
+			path = Ot;
+			sourceTree = "<group>";
+		};
+		67B3F2C423500D0900022179 = {
+			isa = PBXGroup;
+			children = (
+				67B3F2CF23500D0A00022179 /* BaiduMapPoiForMT */,
+				67B3F2EB23500D0E00022179 /* BaiduMapPoiForMTTests */,
+				67B3F2F623500D0E00022179 /* BaiduMapPoiForMTUITests */,
+				67B3F2CE23500D0A00022179 /* Products */,
+				678DE42323504DEA0020BE35 /* Frameworks */,
+				06A26537988CF2496C026161 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		67B3F2CE23500D0A00022179 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67B3F2CD23500D0A00022179 /* BDMT.app */,
+				67B3F2E823500D0E00022179 /* BaiduMapPoiForMTTests.xctest */,
+				67B3F2F323500D0E00022179 /* BaiduMapPoiForMTUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67B3F2CF23500D0A00022179 /* BaiduMapPoiForMT */ = {
+			isa = PBXGroup;
+			children = (
+				67B3F2D023500D0A00022179 /* AppDelegate.h */,
+				67B3F2D123500D0A00022179 /* AppDelegate.mm */,
+				67B3F2D623500D0A00022179 /* ViewController.h */,
+				67B3F2D723500D0A00022179 /* ViewController.m */,
+				67F0D96D2355D22E00CA7CF1 /* Base */,
+				67F0D92B2355D21300CA7CF1 /* BDMapKit */,
+				67F0D9272355D11800CA7CF1 /* Const */,
+				67F0D9252355CF6900CA7CF1 /* Pic */,
+				67B3F2D923500D0A00022179 /* Main.storyboard */,
+				67B3F2DC23500D0E00022179 /* Assets.xcassets */,
+				67B3F2DE23500D0E00022179 /* LaunchScreen.storyboard */,
+				67B3F2E123500D0E00022179 /* Info.plist */,
+				67A8B7BE235059A6004AC337 /* PrefixHeader.pch */,
+				67B3F2E223500D0E00022179 /* main.m */,
+				678DE41523504DA30020BE35 /* BaiduMap_IOSSDK_Lib */,
+			);
+			path = BaiduMapPoiForMT;
+			sourceTree = "<group>";
+		};
+		67B3F2EB23500D0E00022179 /* BaiduMapPoiForMTTests */ = {
+			isa = PBXGroup;
+			children = (
+				67B3F2EC23500D0E00022179 /* BaiduMapPoiForMTTests.m */,
+				67B3F2EE23500D0E00022179 /* Info.plist */,
+			);
+			path = BaiduMapPoiForMTTests;
+			sourceTree = "<group>";
+		};
+		67B3F2F623500D0E00022179 /* BaiduMapPoiForMTUITests */ = {
+			isa = PBXGroup;
+			children = (
+				67B3F2F723500D0E00022179 /* BaiduMapPoiForMTUITests.m */,
+				67B3F2F923500D0E00022179 /* Info.plist */,
+			);
+			path = BaiduMapPoiForMTUITests;
+			sourceTree = "<group>";
+		};
+		67F0D9252355CF6900CA7CF1 /* Pic */ = {
+			isa = PBXGroup;
+			children = (
+				67F0D9942355E6EC00CA7CF1 /* down_icon.png */,
+				67F0D9922355E6EC00CA7CF1 /* down_icon@2x.png */,
+				67F0D9932355E6EC00CA7CF1 /* down_icon@3x.png */,
+				67F0D97C2355D2B300CA7CF1 /* back_X_icon.png */,
+				67F0D97A2355D2B300CA7CF1 /* back_X_icon@2x.png */,
+				67F0D97B2355D2B300CA7CF1 /* back_X_icon@3x.png */,
+				67A8B7DB2350821E004AC337 /* dingwei.png */,
+				67A8B7D82350821E004AC337 /* poi_1.png */,
+				67A8B7D92350821E004AC337 /* poi_2.png */,
+				67A8B7D72350821E004AC337 /* poi.png */,
+				67A8B7DC2350821E004AC337 /* point.png */,
+				67A8B7DA2350821E004AC337 /* point@2x.png */,
+				67356BCA2351A7D900EE70C1 /* input@2x.png */,
+				67356BCE2351A85900EE70C1 /* back_icon_nor@2x.png */,
+				67356BCC2351A85400EE70C1 /* back_icon_nor@3x.png */,
+			);
+			path = Pic;
+			sourceTree = "<group>";
+		};
+		67F0D9272355D11800CA7CF1 /* Const */ = {
+			isa = PBXGroup;
+			children = (
+				67F0D9282355D12C00CA7CF1 /* BFAppConfiguration.h */,
+				67F0D9292355D12C00CA7CF1 /* BFAppConfiguration.m */,
+				67F0D9262355D01A00CA7CF1 /* BFCMacro.h */,
+			);
+			path = Const;
+			sourceTree = "<group>";
+		};
+		67F0D92B2355D21300CA7CF1 /* BDMapKit */ = {
+			isa = PBXGroup;
+			children = (
+				67F0D92C2355D21300CA7CF1 /* BFCBDMapViewController.h */,
+				67F0D95A2355D21300CA7CF1 /* BFCBDMapViewController.m */,
+				67F0D94C2355D21300CA7CF1 /* V */,
+				67F0D93B2355D21300CA7CF1 /* VM */,
+				67F0D92D2355D21300CA7CF1 /* PoiResult */,
+				67F0D9402355D21300CA7CF1 /* SearchResult */,
+				67F0D94F2355D21300CA7CF1 /* GYZChooseCity */,
+			);
+			path = BDMapKit;
+			sourceTree = "<group>";
+		};
+		67F0D92D2355D21300CA7CF1 /* PoiResult */ = {
+			isa = PBXGroup;
+			children = (
+				67F0D9342355D21300CA7CF1 /* BFCPoiResultListController.h */,
+				67F0D92E2355D21300CA7CF1 /* BFCPoiResultListController.m */,
+				67F0D92F2355D21300CA7CF1 /* VM */,
+				67F0D9352355D21300CA7CF1 /* M */,
+				67F0D9382355D21300CA7CF1 /* V */,
+			);
+			path = PoiResult;
+			sourceTree = "<group>";
+		};
+		67F0D92F2355D21300CA7CF1 /* VM */ = {
+			isa = PBXGroup;
+			children = (
+				67F0D9322355D21300CA7CF1 /* BFCPoiResultListService.h */,
+				67F0D9302355D21300CA7CF1 /* BFCPoiResultListService.m */,
+				67F0D9332355D21300CA7CF1 /* BFCPoiResultViewModel.h */,
+				67F0D9312355D21300CA7CF1 /* BFCPoiResultViewModel.m */,
+			);
+			path = VM;
+			sourceTree = "<group>";
+		};
+		67F0D9352355D21300CA7CF1 /* M */ = {
+			isa = PBXGroup;
+			children = (
+				67F0D9362355D21300CA7CF1 /* BFCBDMapPoiModel.h */,
+				67F0D9372355D21300CA7CF1 /* BFCBDMapPoiModel.m */,
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		67F0D9382355D21300CA7CF1 /* V */ = {
+			isa = PBXGroup;
+			children = (
+				67F0D9392355D21300CA7CF1 /* BFCBDMapPoiViewCell.h */,
+				67F0D93A2355D21300CA7CF1 /* BFCBDMapPoiViewCell.m */,
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		67F0D93B2355D21300CA7CF1 /* VM */ = {
+			isa = PBXGroup;
+			children = (
+				67F0D93F2355D21300CA7CF1 /* BFCBDMapViewService.h */,
+				67F0D93D2355D21300CA7CF1 /* BFCBDMapViewService.m */,
+				67F0D93C2355D21300CA7CF1 /* BFCBDMapViewModel.h */,
+				67F0D93E2355D21300CA7CF1 /* BFCBDMapViewModel.m */,
+			);
+			path = VM;
+			sourceTree = "<group>";
+		};
+		67F0D9402355D21300CA7CF1 /* SearchResult */ = {
+			isa = PBXGroup;
+			children = (
+				67F0D9412355D21300CA7CF1 /* BFCBDMapSearchResultController.h */,
+				67F0D9472355D21300CA7CF1 /* BFCBDMapSearchResultController.m */,
+				67F0D9422355D21300CA7CF1 /* VM */,
+				67F0D9482355D21300CA7CF1 /* M */,
+				67F0D9492355D21300CA7CF1 /* V */,
+			);
+			path = SearchResult;
+			sourceTree = "<group>";
+		};
+		67F0D9422355D21300CA7CF1 /* VM */ = {
+			isa = PBXGroup;
+			children = (
+				67F0D9462355D21300CA7CF1 /* BFCBDMapSearchResultViewModel.h */,
+				67F0D9432355D21300CA7CF1 /* BFCBDMapSearchResultViewModel.m */,
+				67F0D9442355D21300CA7CF1 /* BFCBDMapSearchResultService.h */,
+				67F0D9452355D21300CA7CF1 /* BFCBDMapSearchResultService.m */,
+			);
+			path = VM;
+			sourceTree = "<group>";
+		};
+		67F0D9482355D21300CA7CF1 /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		67F0D9492355D21300CA7CF1 /* V */ = {
+			isa = PBXGroup;
+			children = (
+				67F0D94A2355D21300CA7CF1 /* AdSearchResoultViewCell.h */,
+				67F0D94B2355D21300CA7CF1 /* AdSearchResoultViewCell.m */,
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		67F0D94C2355D21300CA7CF1 /* V */ = {
+			isa = PBXGroup;
+			children = (
+				67F0D94D2355D21300CA7CF1 /* BFCCityButton.h */,
+				67F0D94E2355D21300CA7CF1 /* BFCCityButton.m */,
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		67F0D94F2355D21300CA7CF1 /* GYZChooseCity */ = {
+			isa = PBXGroup;
+			children = (
+				67F0D9572355D21300CA7CF1 /* GYZChooseCityController.h */,
+				67F0D9502355D21300CA7CF1 /* GYZChooseCityController.m */,
+				67F0D9552355D21300CA7CF1 /* GYZCityGroupCell.h */,
+				67F0D9512355D21300CA7CF1 /* GYZCityGroupCell.m */,
+				67F0D9582355D21300CA7CF1 /* GYZCityHeaderView.h */,
+				67F0D9532355D21300CA7CF1 /* GYZCityHeaderView.m */,
+				67F0D9562355D21300CA7CF1 /* GYZChooseCityDelegate.h */,
+				67F0D9592355D21300CA7CF1 /* GYZCity.h */,
+				67F0D9542355D21300CA7CF1 /* GYZCity.m */,
+				67F0D9522355D21300CA7CF1 /* CityData.plist */,
+			);
+			path = GYZChooseCity;
+			sourceTree = "<group>";
+		};
+		67F0D96D2355D22E00CA7CF1 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				67F0D9842355D49600CA7CF1 /* BFCBaseViewController.h */,
+				67F0D9832355D49600CA7CF1 /* BFCBaseViewController.m */,
+				67F0D9772355D25800CA7CF1 /* BFCBaseViewService.h */,
+				67F0D9742355D25800CA7CF1 /* BFCBaseViewService.m */,
+				67F0D98F2355DAF700CA7CF1 /* BFCBaseViewModel.h */,
+				67F0D9902355DAF700CA7CF1 /* BFCBaseViewModel.m */,
+				67F0D9802355D31F00CA7CF1 /* UILabel+Category.h */,
+				67F0D9812355D31F00CA7CF1 /* UILabel+Category.m */,
+				67F0D9862355D94100CA7CF1 /* NSObject+Extension.h */,
+				67F0D9872355D94100CA7CF1 /* NSObject+Extension.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67B3F2CC23500D0A00022179 /* BaiduMapPoiForMT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67B3F2FC23500D0E00022179 /* Build configuration list for PBXNativeTarget "BaiduMapPoiForMT" */;
+			buildPhases = (
+				FBFD3100405EB61962ADD8CE /* [CP] Check Pods Manifest.lock */,
+				67B3F2C923500D0A00022179 /* Sources */,
+				67B3F2CA23500D0A00022179 /* Frameworks */,
+				67B3F2CB23500D0A00022179 /* Resources */,
+				A4A4755F877454C12921FF93 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BaiduMapPoiForMT;
+			productName = BaiduMapPoiForMT;
+			productReference = 67B3F2CD23500D0A00022179 /* BDMT.app */;
+			productType = "com.apple.product-type.application";
+		};
+		67B3F2E723500D0E00022179 /* BaiduMapPoiForMTTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67B3F2FF23500D0E00022179 /* Build configuration list for PBXNativeTarget "BaiduMapPoiForMTTests" */;
+			buildPhases = (
+				67B3F2E423500D0E00022179 /* Sources */,
+				67B3F2E523500D0E00022179 /* Frameworks */,
+				67B3F2E623500D0E00022179 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67B3F2EA23500D0E00022179 /* PBXTargetDependency */,
+			);
+			name = BaiduMapPoiForMTTests;
+			productName = BaiduMapPoiForMTTests;
+			productReference = 67B3F2E823500D0E00022179 /* BaiduMapPoiForMTTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		67B3F2F223500D0E00022179 /* BaiduMapPoiForMTUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67B3F30223500D0E00022179 /* Build configuration list for PBXNativeTarget "BaiduMapPoiForMTUITests" */;
+			buildPhases = (
+				67B3F2EF23500D0E00022179 /* Sources */,
+				67B3F2F023500D0E00022179 /* Frameworks */,
+				67B3F2F123500D0E00022179 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67B3F2F523500D0E00022179 /* PBXTargetDependency */,
+			);
+			name = BaiduMapPoiForMTUITests;
+			productName = BaiduMapPoiForMTUITests;
+			productReference = 67B3F2F323500D0E00022179 /* BaiduMapPoiForMTUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67B3F2C523500D0900022179 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = hzhy001;
+				TargetAttributes = {
+					67B3F2CC23500D0A00022179 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					67B3F2E723500D0E00022179 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 67B3F2CC23500D0A00022179;
+					};
+					67B3F2F223500D0E00022179 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 67B3F2CC23500D0A00022179;
+					};
+				};
+			};
+			buildConfigurationList = 67B3F2C823500D0900022179 /* Build configuration list for PBXProject "BaiduMapPoiForMT" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 67B3F2C423500D0900022179;
+			productRefGroup = 67B3F2CE23500D0A00022179 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67B3F2CC23500D0A00022179 /* BaiduMapPoiForMT */,
+				67B3F2E723500D0E00022179 /* BaiduMapPoiForMTTests */,
+				67B3F2F223500D0E00022179 /* BaiduMapPoiForMTUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67B3F2CB23500D0A00022179 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67F0D97E2355D2B300CA7CF1 /* back_X_icon@3x.png in Resources */,
+				67F0D97F2355D2B300CA7CF1 /* back_X_icon.png in Resources */,
+				67B3F2E023500D0E00022179 /* LaunchScreen.storyboard in Resources */,
+				67F0D9692355D21300CA7CF1 /* CityData.plist in Resources */,
+				67A8B7DD2350821E004AC337 /* poi.png in Resources */,
+				67A8B7E22350821E004AC337 /* point.png in Resources */,
+				67356BCD2351A85500EE70C1 /* back_icon_nor@3x.png in Resources */,
+				67A8B7DE2350821E004AC337 /* poi_1.png in Resources */,
+				67F0D9962355E6ED00CA7CF1 /* down_icon@3x.png in Resources */,
+				67A8B7E02350821E004AC337 /* point@2x.png in Resources */,
+				67A8B7E12350821E004AC337 /* dingwei.png in Resources */,
+				67A8B7BD2350561A004AC337 /* mapapi.bundle in Resources */,
+				67F0D9972355E6ED00CA7CF1 /* down_icon.png in Resources */,
+				67F0D97D2355D2B300CA7CF1 /* back_X_icon@2x.png in Resources */,
+				67B3F2DD23500D0E00022179 /* Assets.xcassets in Resources */,
+				67F0D9952355E6ED00CA7CF1 /* down_icon@2x.png in Resources */,
+				67B3F2DB23500D0A00022179 /* Main.storyboard in Resources */,
+				67356BCF2351A85900EE70C1 /* back_icon_nor@2x.png in Resources */,
+				67356BCB2351A7D900EE70C1 /* input@2x.png in Resources */,
+				67A8B7DF2350821E004AC337 /* poi_2.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67B3F2E623500D0E00022179 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67B3F2F123500D0E00022179 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A4A4755F877454C12921FF93 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BaiduMapPoiForMT/Pods-BaiduMapPoiForMT-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BaiduMapPoiForMT/Pods-BaiduMapPoiForMT-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BaiduMapPoiForMT/Pods-BaiduMapPoiForMT-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBFD3100405EB61962ADD8CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BaiduMapPoiForMT-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67B3F2C923500D0A00022179 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67F0D9642355D21300CA7CF1 /* BFCBDMapSearchResultController.m in Sources */,
+				67F0D9882355D94100CA7CF1 /* NSObject+Extension.m in Sources */,
+				67F0D9632355D21300CA7CF1 /* BFCBDMapSearchResultService.m in Sources */,
+				67F0D9612355D21300CA7CF1 /* BFCBDMapViewModel.m in Sources */,
+				67F0D9822355D31F00CA7CF1 /* UILabel+Category.m in Sources */,
+				67F0D9672355D21300CA7CF1 /* GYZChooseCityController.m in Sources */,
+				67F0D95B2355D21300CA7CF1 /* BFCPoiResultListController.m in Sources */,
+				67F0D92A2355D12C00CA7CF1 /* BFAppConfiguration.m in Sources */,
+				67B3F2D823500D0A00022179 /* ViewController.m in Sources */,
+				67F0D9782355D25800CA7CF1 /* BFCBaseViewService.m in Sources */,
+				67F0D96B2355D21300CA7CF1 /* GYZCity.m in Sources */,
+				67F0D95D2355D21300CA7CF1 /* BFCPoiResultViewModel.m in Sources */,
+				67F0D95C2355D21300CA7CF1 /* BFCPoiResultListService.m in Sources */,
+				67F0D9682355D21300CA7CF1 /* GYZCityGroupCell.m in Sources */,
+				67F0D95E2355D21300CA7CF1 /* BFCBDMapPoiModel.m in Sources */,
+				67B3F2D223500D0A00022179 /* AppDelegate.mm in Sources */,
+				67F0D96A2355D21300CA7CF1 /* GYZCityHeaderView.m in Sources */,
+				67F0D9662355D21300CA7CF1 /* BFCCityButton.m in Sources */,
+				67F0D9912355DAF700CA7CF1 /* BFCBaseViewModel.m in Sources */,
+				67F0D9602355D21300CA7CF1 /* BFCBDMapViewService.m in Sources */,
+				67F0D95F2355D21300CA7CF1 /* BFCBDMapPoiViewCell.m in Sources */,
+				67F0D9622355D21300CA7CF1 /* BFCBDMapSearchResultViewModel.m in Sources */,
+				67F0D9852355D49600CA7CF1 /* BFCBaseViewController.m in Sources */,
+				67F0D96C2355D21300CA7CF1 /* BFCBDMapViewController.m in Sources */,
+				67B3F2E323500D0E00022179 /* main.m in Sources */,
+				67F0D9652355D21300CA7CF1 /* AdSearchResoultViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67B3F2E423500D0E00022179 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67B3F2ED23500D0E00022179 /* BaiduMapPoiForMTTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67B3F2EF23500D0E00022179 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67B3F2F823500D0E00022179 /* BaiduMapPoiForMTUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		67B3F2EA23500D0E00022179 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67B3F2CC23500D0A00022179 /* BaiduMapPoiForMT */;
+			targetProxy = 67B3F2E923500D0E00022179 /* PBXContainerItemProxy */;
+		};
+		67B3F2F523500D0E00022179 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67B3F2CC23500D0A00022179 /* BaiduMapPoiForMT */;
+			targetProxy = 67B3F2F423500D0E00022179 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		67B3F2D923500D0A00022179 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67B3F2DA23500D0A00022179 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		67B3F2DE23500D0E00022179 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67B3F2DF23500D0E00022179 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		67B3F2FA23500D0E00022179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = BaiduMapPoiForMT/PrefixHeader.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-Objc";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		67B3F2FB23500D0E00022179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = BaiduMapPoiForMT/PrefixHeader.pch;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "-Objc";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67B3F2FD23500D0E00022179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE412F2E1A02C8C459F99EC2 /* Pods-BaiduMapPoiForMT.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4U5UTHTK2F;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BaiduMapPoiForMT/BaiduMap_IOSSDK_Lib",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INFOPLIST_FILE = BaiduMapPoiForMT/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BaiduMapPoiForMT/BaiduMap_IOSSDK_Lib/thirdlibs",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-l\"IQKeyboardManager\"",
+					"-l\"ReactiveObjC\"",
+					"-l\"MJExtension\"",
+					"-l\"Masonry\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bf.test.com.huizhihuyu.BaiduMapPoiForMT;
+				PRODUCT_NAME = BDMT;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		67B3F2FE23500D0E00022179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B70DD66BCA9BBC905758F85 /* Pods-BaiduMapPoiForMT.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4U5UTHTK2F;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BaiduMapPoiForMT/BaiduMap_IOSSDK_Lib",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INFOPLIST_FILE = BaiduMapPoiForMT/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BaiduMapPoiForMT/BaiduMap_IOSSDK_Lib/thirdlibs",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-l\"IQKeyboardManager\"",
+					"-l\"ReactiveObjC\"",
+					"-l\"MJExtension\"",
+					"-l\"Masonry\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bf.test.com.huizhihuyu.BaiduMapPoiForMT;
+				PRODUCT_NAME = BDMT;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		67B3F30023500D0E00022179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4U5UTHTK2F;
+				INFOPLIST_FILE = BaiduMapPoiForMTTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bf.test.com.huizhihuyu.BaiduMapPoiForMTTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BaiduMapPoiForMT.app/BaiduMapPoiForMT";
+			};
+			name = Debug;
+		};
+		67B3F30123500D0E00022179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4U5UTHTK2F;
+				INFOPLIST_FILE = BaiduMapPoiForMTTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bf.test.com.huizhihuyu.BaiduMapPoiForMTTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BaiduMapPoiForMT.app/BaiduMapPoiForMT";
+			};
+			name = Release;
+		};
+		67B3F30323500D0E00022179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4U5UTHTK2F;
+				INFOPLIST_FILE = BaiduMapPoiForMTUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bf.test.com.huizhihuyu.BaiduMapPoiForMTUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BaiduMapPoiForMT;
+			};
+			name = Debug;
+		};
+		67B3F30423500D0E00022179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4U5UTHTK2F;
+				INFOPLIST_FILE = BaiduMapPoiForMTUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bf.test.com.huizhihuyu.BaiduMapPoiForMTUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BaiduMapPoiForMT;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67B3F2C823500D0900022179 /* Build configuration list for PBXProject "BaiduMapPoiForMT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67B3F2FA23500D0E00022179 /* Debug */,
+				67B3F2FB23500D0E00022179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67B3F2FC23500D0E00022179 /* Build configuration list for PBXNativeTarget "BaiduMapPoiForMT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67B3F2FD23500D0E00022179 /* Debug */,
+				67B3F2FE23500D0E00022179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67B3F2FF23500D0E00022179 /* Build configuration list for PBXNativeTarget "BaiduMapPoiForMTTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67B3F30023500D0E00022179 /* Debug */,
+				67B3F30123500D0E00022179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67B3F30223500D0E00022179 /* Build configuration list for PBXNativeTarget "BaiduMapPoiForMTUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67B3F30323500D0E00022179 /* Debug */,
+				67B3F30423500D0E00022179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 67B3F2C523500D0900022179 /* Project object */;
+}

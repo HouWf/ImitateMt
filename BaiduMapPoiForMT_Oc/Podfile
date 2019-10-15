@@ -1,0 +1,15 @@
+platform :ios, '8.0'
+
+def pods
+    #  use_frameworks!
+    inhibit_all_warnings!
+    pod 'MJExtension'
+    pod 'IQKeyboardManager' , '3.3.7'
+    pod 'Masonry'
+    pod 'ReactiveObjC'
+  
+end
+
+target 'BaiduMapPoiForMT' do
+    pods
+end

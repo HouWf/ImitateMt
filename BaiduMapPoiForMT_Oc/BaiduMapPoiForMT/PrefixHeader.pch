@@ -1,0 +1,30 @@
+//
+//  PrefixHeader.pch
+//  BaiduMapPoiForMT
+//
+//  Created by hzhy001 on 2019/10/11.
+//  Copyright © 2019 hzhy001. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import <BaiduMapAPI_Base/BMKBaseComponent.h>
+#import <BaiduMapAPI_Map/BMKMapComponent.h>
+#import <BaiduMapAPI_Search/BMKSearchComponent.h>
+#import <BaiduMapAPI_Cloud/BMKCloudSearchComponent.h>
+#import <BaiduMapAPI_Map/BMKMapView.h>
+#import <BMKLocationKit/BMKLocationComponent.h>
+#import <BaiduMapAPI_Utils/BMKUtilsComponent.h>
+
+#import "Masonry.h"
+#import "MJExtension.h"
+#import "IQKeyboardManager.h"
+#import "ReactiveObjC.h"
+
+#import "UILabel+Category.h"
+#import "NSObject+Extension.h"
+#import "BFAppConfiguration.h"
+#import "BFCMacro.h"
+
+#endif /* PrefixHeader_pch */
